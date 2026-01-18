@@ -7,4 +7,10 @@ GET https://cse341-watson.onrender.com HTTP/1.1
 GET http://localhost:3000/contacts
 
 ### Contact by ID
-GET http://localhost:3000/contacts/single?id=696931838e7e719cab68af8c
+GET http://localhost:3000/contacts/:id?id=696931838e7e719cab68af8c
+
+### Contact by ID
+GET http://localhost:3000/contacts/:id?id=696931ae8e7e719cab68af8e
+
+### Contact by ID
+GET http://localhost:3000/contacts/:id?id=696931c18e7e719cab68af90
