@@ -14,3 +14,30 @@ GET http://localhost:3000/contacts/696931ae8e7e719cab68af8e
 
 ### Contact by ID
 GET http://localhost:3000/contacts/696931c18e7e719cab68af90
+
+### New Contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+    "firstName": "Jack",
+    "lastName": "Watson",
+    "email": "jack@email.com",
+    "favoriteColor": "blue",
+    "birthday": "2003-05-09"
+}
+
+### Update Contact
+PUT http://localhost:3000/contacts/696931c18e7e719cab68af90
+Content-Type: application/json
+
+{
+    "firstName": "Jack",
+    "lastName": "Watson",
+    "email": "jack@email.com",
+    "favoriteColor": "green",
+    "birthday": "2003-05-09"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/contacts/69784c1c89d89ddd079b5d8c
